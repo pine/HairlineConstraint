@@ -9,8 +9,8 @@
 import Foundation
 import UIKit
 
-class HairlineConstraint: NSLayoutConstraint {
-    override func awakeFromNib() {
+open class HairlineConstraint: NSLayoutConstraint {
+    override open func awakeFromNib() {
         super.awakeFromNib()
         self.constant = 1.0 / UIScreen.main.scale
     }
