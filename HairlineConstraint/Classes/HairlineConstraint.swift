@@ -1,6 +1,6 @@
 //
 //  HairlineConstraint.swift
-//  Pods
+//  The only 1px constraint physically
 //
 //  Created by Pine Mizune on 2017/06/12.
 //
