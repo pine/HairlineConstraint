@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  HairlineConstraint
 //
-//  Created by Pine Mizune on 06/12/2017.
+//  Created by Pine Mizune on 06/15/2017.
 //  Copyright (c) 2017 Pine Mizune. All rights reserved.
 //
 

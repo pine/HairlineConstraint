@@ -3,13 +3,9 @@ language: objective-c
 cache: cocoapods
 podfile: Example/Podfile
 before_install:
-  - gem install cocoapods
+  - gem install cocoapods@1.2.1
   - pod install --project-directory=Example
-  - export UUID=$(instruments -s | ruby -e "ARGF.each_line{ |ln| ln =~ /iPhone SE .* \[(.*)\]/; if \$1; puts(\$1); exit; end }");
 
 script:
-- set -o pipefail;
-  xcrun instruments -w "$UUID";
-  sleep 15;
-  xcodebuild test -workspace Example/HairlineConstraint.xcworkspace -scheme HairlineConstraint-Example -destination "id=$UUID" ONLY_ACTIVE_ARCH=NO | xcpretty
+- xcodebuild -workspace Example/HairlineConstraint.xcworkspace -scheme HairlineConstraint-Example -sdk iphonesimulator -configuration Debug | xcpretty
 - pod lib lint

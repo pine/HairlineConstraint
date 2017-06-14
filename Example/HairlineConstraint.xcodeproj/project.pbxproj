@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B29AFD15FCDC32C25898B3A /* Pods_HairlineConstraint_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B4F1EF5B4BC0187E445286 /* Pods_HairlineConstraint_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		791E965396CE071902DD99DE /* Pods_HairlineConstraint_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF1ADCC37D425E0FC34C448 /* Pods_HairlineConstraint_Tests.framework */; };
+		9C5A0A3D34F3F5842E86662E /* Pods_HairlineConstraint_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0816FBB5116F46DABDC15017 /* Pods_HairlineConstraint_Tests.framework */; };
+		CFFF9E5D0F1D92C1779B8E4A /* Pods_HairlineConstraint_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DE01BBFD31256B782C9056 /* Pods_HairlineConstraint_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5F9CA18619F32E1FC098F2CD /* Pods-HairlineConstraint_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HairlineConstraint_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HairlineConstraint_Example/Pods-HairlineConstraint_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0816FBB5116F46DABDC15017 /* Pods_HairlineConstraint_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HairlineConstraint_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08DE01BBFD31256B782C9056 /* Pods_HairlineConstraint_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HairlineConstraint_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CBC8A73EB2DD210D6DEFDCA /* Pods-HairlineConstraint_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HairlineConstraint_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HairlineConstraint_Tests/Pods-HairlineConstraint_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1015A9CEC6017216BED37177 /* HairlineConstraint.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HairlineConstraint.podspec; path = ../HairlineConstraint.podspec; sourceTree = "<group>"; };
+		2D97169B187F7356B604FCF3 /* Pods-HairlineConstraint_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HairlineConstraint_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HairlineConstraint_Tests/Pods-HairlineConstraint_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		59E6E7F85C786D2199EE0B44 /* Pods-HairlineConstraint_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HairlineConstraint_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HairlineConstraint_Example/Pods-HairlineConstraint_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* HairlineConstraint_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HairlineConstraint_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,14 +44,9 @@
 		607FACE51AFB9204008FA782 /* HairlineConstraint_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HairlineConstraint_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6E38460A1E560DBF4D2CFAF6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		8F76238921D3AA5A0CBA314D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		922EB2D0FE037783601D4296 /* Pods-HairlineConstraint_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HairlineConstraint_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HairlineConstraint_Tests/Pods-HairlineConstraint_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		92B4F1EF5B4BC0187E445286 /* Pods_HairlineConstraint_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HairlineConstraint_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABF1ADCC37D425E0FC34C448 /* Pods_HairlineConstraint_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HairlineConstraint_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF59E4146B955974706ECA2E /* Pods-HairlineConstraint_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HairlineConstraint_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HairlineConstraint_Tests/Pods-HairlineConstraint_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C3F5FD0A30DC18C324BDA875 /* Pods-HairlineConstraint_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HairlineConstraint_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HairlineConstraint_Example/Pods-HairlineConstraint_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D903F9DAF1295467CA820DA8 /* HairlineConstraint.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HairlineConstraint.podspec; path = ../HairlineConstraint.podspec; sourceTree = "<group>"; };
+		75E28E72514FE099946B1044 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BF928E5FFF92CFF03B4E35F7 /* Pods-HairlineConstraint_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HairlineConstraint_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HairlineConstraint_Example/Pods-HairlineConstraint_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E5CF9E62ED270D39949520D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B29AFD15FCDC32C25898B3A /* Pods_HairlineConstraint_Example.framework in Frameworks */,
+				CFFF9E5D0F1D92C1779B8E4A /* Pods_HairlineConstraint_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,22 +62,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				791E965396CE071902DD99DE /* Pods_HairlineConstraint_Tests.framework in Frameworks */,
+				9C5A0A3D34F3F5842E86662E /* Pods_HairlineConstraint_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C55700637D160742102630A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				92B4F1EF5B4BC0187E445286 /* Pods_HairlineConstraint_Example.framework */,
-				ABF1ADCC37D425E0FC34C448 /* Pods_HairlineConstraint_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -85,8 +76,8 @@
 				607FACD21AFB9204008FA782 /* Example for HairlineConstraint */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				81363EEDD0867BF0DE98F064 /* Pods */,
-				1C55700637D160742102630A /* Frameworks */,
+				8C6C1161A36B5DC4997191FA /* Pods */,
+				67A465D8C161CD29A80C40E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,20 +132,29 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				D903F9DAF1295467CA820DA8 /* HairlineConstraint.podspec */,
-				6E38460A1E560DBF4D2CFAF6 /* README.md */,
-				8F76238921D3AA5A0CBA314D /* LICENSE */,
+				1015A9CEC6017216BED37177 /* HairlineConstraint.podspec */,
+				E5CF9E62ED270D39949520D2 /* README.md */,
+				75E28E72514FE099946B1044 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		81363EEDD0867BF0DE98F064 /* Pods */ = {
+		67A465D8C161CD29A80C40E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C3F5FD0A30DC18C324BDA875 /* Pods-HairlineConstraint_Example.debug.xcconfig */,
-				5F9CA18619F32E1FC098F2CD /* Pods-HairlineConstraint_Example.release.xcconfig */,
-				BF59E4146B955974706ECA2E /* Pods-HairlineConstraint_Tests.debug.xcconfig */,
-				922EB2D0FE037783601D4296 /* Pods-HairlineConstraint_Tests.release.xcconfig */,
+				08DE01BBFD31256B782C9056 /* Pods_HairlineConstraint_Example.framework */,
+				0816FBB5116F46DABDC15017 /* Pods_HairlineConstraint_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C6C1161A36B5DC4997191FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF928E5FFF92CFF03B4E35F7 /* Pods-HairlineConstraint_Example.debug.xcconfig */,
+				59E6E7F85C786D2199EE0B44 /* Pods-HairlineConstraint_Example.release.xcconfig */,
+				0CBC8A73EB2DD210D6DEFDCA /* Pods-HairlineConstraint_Tests.debug.xcconfig */,
+				2D97169B187F7356B604FCF3 /* Pods-HairlineConstraint_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -166,12 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "HairlineConstraint_Example" */;
 			buildPhases = (
-				56F06CE727E097473DDF36C3 /* [CP] Check Pods Manifest.lock */,
+				B4379EAFDBFBA8C61EDEB6E6 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				5818DB612A700BD3CED42DA4 /* [CP] Embed Pods Frameworks */,
-				5A66D849ABA38DEAC48B1AC0 /* [CP] Copy Pods Resources */,
+				6158C96BC2CD96AA395F1A42 /* [CP] Embed Pods Frameworks */,
+				7FFBE1495F68FD324FF896FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,12 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "HairlineConstraint_Tests" */;
 			buildPhases = (
-				AAEE36A94BD065EFDC4826A9 /* [CP] Check Pods Manifest.lock */,
+				061F4F7CE93113AB3467EA24 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				3F37E834A1A9E59A8762B7C7 /* [CP] Embed Pods Frameworks */,
-				FDC00378A83CA010FBD72771 /* [CP] Copy Pods Resources */,
+				03B91C9CF6EF8EF8555C5344 /* [CP] Embed Pods Frameworks */,
+				1A187E7AA14187ADDF6FCED4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,7 +264,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3F37E834A1A9E59A8762B7C7 /* [CP] Embed Pods Frameworks */ = {
+		03B91C9CF6EF8EF8555C5344 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -279,7 +279,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HairlineConstraint_Tests/Pods-HairlineConstraint_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		56F06CE727E097473DDF36C3 /* [CP] Check Pods Manifest.lock */ = {
+		061F4F7CE93113AB3467EA24 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -294,7 +294,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		5818DB612A700BD3CED42DA4 /* [CP] Embed Pods Frameworks */ = {
+		1A187E7AA14187ADDF6FCED4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HairlineConstraint_Tests/Pods-HairlineConstraint_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6158C96BC2CD96AA395F1A42 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -309,7 +324,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HairlineConstraint_Example/Pods-HairlineConstraint_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5A66D849ABA38DEAC48B1AC0 /* [CP] Copy Pods Resources */ = {
+		7FFBE1495F68FD324FF896FF /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -324,7 +339,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HairlineConstraint_Example/Pods-HairlineConstraint_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AAEE36A94BD065EFDC4826A9 /* [CP] Check Pods Manifest.lock */ = {
+		B4379EAFDBFBA8C61EDEB6E6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -337,21 +352,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FDC00378A83CA010FBD72771 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HairlineConstraint_Tests/Pods-HairlineConstraint_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -493,7 +493,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3F5FD0A30DC18C324BDA875 /* Pods-HairlineConstraint_Example.debug.xcconfig */;
+			baseConfigurationReference = BF928E5FFF92CFF03B4E35F7 /* Pods-HairlineConstraint_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HairlineConstraint/Info.plist;
@@ -507,7 +507,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F9CA18619F32E1FC098F2CD /* Pods-HairlineConstraint_Example.release.xcconfig */;
+			baseConfigurationReference = 59E6E7F85C786D2199EE0B44 /* Pods-HairlineConstraint_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HairlineConstraint/Info.plist;
@@ -521,7 +521,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF59E4146B955974706ECA2E /* Pods-HairlineConstraint_Tests.debug.xcconfig */;
+			baseConfigurationReference = 0CBC8A73EB2DD210D6DEFDCA /* Pods-HairlineConstraint_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -541,7 +541,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 922EB2D0FE037783601D4296 /* Pods-HairlineConstraint_Tests.release.xcconfig */;
+			baseConfigurationReference = 2D97169B187F7356B604FCF3 /* Pods-HairlineConstraint_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

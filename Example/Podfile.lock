@@ -1,37 +1,16 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
   - HairlineConstraint (0.1.0)
-  - Nimble (5.1.1)
-  - Nimble-Snapshots (4.4.0):
-    - Nimble-Snapshots/Core (= 4.4.0)
-  - Nimble-Snapshots/Core (4.4.0):
-    - FBSnapshotTestCase (~> 2.0)
-    - Nimble
-    - Quick
-  - Quick (1.0.0)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
   - HairlineConstraint (from `../`)
-  - Nimble (~> 5.1.1)
-  - Nimble-Snapshots
-  - Quick (~> 1.0.0)
 
 EXTERNAL SOURCES:
   HairlineConstraint:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   HairlineConstraint: 300eab8e88634d8ddfcf4082e16c3c923e2d63cf
-  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
-  Nimble-Snapshots: e743439f26c2fa99d8f7e0d7c01c99bcb40aa6f2
-  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
 
-PODFILE CHECKSUM: 206bb3af691d7a942f8afe58a4f1a6bab1ffe54b
+PODFILE CHECKSUM: b7b2a380282b422d17fd262f6b042a3e88fdd898
 
 COCOAPODS: 1.2.1
