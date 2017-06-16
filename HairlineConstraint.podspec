@@ -18,7 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-The only 1px constraint physically
+The only 1px constraint physically.
+
+Recent iPhone has very high resolution display, width 1 is not 1 pixel.
+If you need to draw physical 1 pixel border, you can use HairlineConstraint to resolve the problems.
 DESC
 
   s.homepage         = 'https://github.com/pine/HairlineConstraint'
